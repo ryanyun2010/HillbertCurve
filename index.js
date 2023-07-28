@@ -1,4 +1,4 @@
-var order = 6;
+var order = parseFloat(alert("Order?"));
     var length = 400/(Math.pow(2,order) + 1/2);
 // var length = 50;
 function setup() {
