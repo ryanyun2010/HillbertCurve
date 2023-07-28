@@ -1,8 +1,8 @@
 var order = parseFloat(prompt("Order?"));
-    var length = 400/(Math.pow(2,order) + 1/2);
+    var length = 800/(Math.pow(2,order) + 1/2);
 // var length = 50;
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1600, 1600);
   background(220);
   
 }
