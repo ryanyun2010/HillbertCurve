@@ -1,8 +1,8 @@
 var order = 6;
-    var length = 200/(Math.pow(2,order) + 1/2);
+    var length = 400/(Math.pow(2,order) + 1/2);
 // var length = 50;
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 800);
   background(220);
   
 }
